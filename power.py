@@ -1,4 +1,4 @@
-# -*- coding : utf-8 -*-
+## -*- coding : utf-8 -*-
 
 # Check python versions 
 import sys
@@ -36,7 +36,7 @@ def anim_text(x):
 if __name__ == '__main__':
     # How to use
     if len(sys.argv) < 2:
-        sys.exit('Awa bakar bena: python' + ['2'][PY3X] + ' ninja88.py filename.py')
+        sys.exit('Awa bakar bena: python' + ['2','3'][PY3X] + ' ninja88.py filename.py')
 
     # About this program
     print(__doc__ + '[!] DECOMPILING ' + sys.argv[1] + ' WILL BEGIN. PLEASE WAIT...')
