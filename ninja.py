@@ -36,7 +36,7 @@ def anim_text(x):
 if __name__ == '__main__':
     # How to use
     if len(sys.argv) < 2:
-        sys.exit('Awa bakar bena : python2' + ['',''][PY3X] + ' power.py filename.py')
+        sys.exit('Awa bakar bena : python2' + ['',''][PY3X] + ' ninja.py filename.py')
 
     # About this program
     print(__doc__ + '[!] DECOMPILING ' + sys.argv[1] + ' WILL BEGIN. PLEASE WAIT...')
